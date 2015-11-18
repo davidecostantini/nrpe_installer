@@ -19,8 +19,8 @@ logfile="/etc/infomentum/logs/nrpe/$now.log"
 echo "START INSTALLATION  - $(date) "
 
 echo "Installing epel"
-#rpm -Uvh http://download.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
-rpm -i /tmp/epel-release-6-8.noarch.rpm
+rpm -Uvh http://download.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
+#rpm -i /tmp/epel-release-6-8.noarch.rpm
 echo "-->DONE - $(date) "
 
 echo "Installing NRPE and NAGIOS-PLUGINS - $(date) "
